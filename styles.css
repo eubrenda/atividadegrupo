@@ -1,0 +1,145 @@
+/* Estilos Gerais */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+header {
+  background-color: #0056b3; /* Azul mais escuro */
+  color: #fff;
+  padding: 1em 0;
+}
+
+header nav {
+  max-width: 1200px; /* Limita a largura máxima do cabeçalho */
+  margin: 0 auto; /* Centraliza o cabeçalho */
+}
+
+nav ul {
+  list-style-type: none; /* Remove os marcadores da lista */
+  padding: 0;
+  margin: 0;
+  display: flex; /* Exibe os itens da lista horizontalmente */
+  justify-content: center; /* Centraliza os itens horizontalmente */
+}
+
+nav ul li {
+  margin: 0 1em; /* Espaçamento entre os itens da lista */
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.5em 1em;
+  display: block; /* Garante que o padding seja aplicado ao link inteiro */
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+  background-color: #003d7a; /* Azul mais escuro ao passar o mouse */
+}
+
+/* Seções principais */
+main {
+  padding: 2em;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.hero {
+  text-align: center;
+  padding: 2em;
+  background-color: #fff;
+  margin-bottom: 2em;
+}
+
+.hero img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+footer {
+  background-color: #0056b3;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Estilos Específicos */
+.author,
+.characters,
+.chapters,
+.themes,
+.reception,
+.adaptations {
+  padding: 2em;
+  background-color: #fff;
+  margin: 0 auto;
+  max-width: 1200px;
+}
+
+.author img,
+.character img,
+.hero img {
+  max-width: 150px;
+  height: auto;
+  border-radius: 8px;
+}
+
+.character {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
+.character img {
+  border-radius: 8px;
+}
+
+.themes,
+.adaptations {
+  background-color: #fafafa;
+}
+
+section h1 {
+  color: #0056b3; /* Cor dos títulos */
+  margin-top: 0;
+}
+
+section h2 {
+  color: #003d7a; /* Cor dos subtítulos */
+}
+
+section p {
+  line-height: 1.6;
+}
+
+/* Layout de Botões e Links */
+button,
+a.button {
+  background-color: #0056b3;
+  color: #fff;
+  border: none;
+  padding: 0.7em 1.5em;
+  text-transform: uppercase;
+  cursor: pointer;
+  border-radius: 4px;
+  font-size: 1em;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+button:hover,
+a.button:hover {
+  background-color: #003d7a;
+}
